@@ -1,0 +1,18 @@
+# LCBroadcasts Configuration
+# Automatic broadcast messages for your server
+
+# Interval between messages in seconds
+interval-seconds: 300
+
+# Whether to send messages in random order
+# true = random order
+# false = sequential order (1, 2, 3, 1, 2, 3...)
+random-order: false
+
+# List of messages to broadcast
+# Supports Minecraft color codes with & (e.g., &a for green, &c for red)
+messages:
+  - "&8[&6LCBroadcasts&8] &7Welcome to the server!"
+  - "&8[&6LCBroadcasts&8] &7Join our Discord for updates!"
+  - "&8[&6LCBroadcasts&8] &7Type /help for a list of commands."
+  - "&8[&6LCBroadcasts&8] &aHave fun and play fair!"
